@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Pesquisa avancada do Google</title>
+        <link rel="stylesheet" href="CS50W_project0_advanced.css">
+    </head>
+    <body>
+        <header>
+            <a href="CS50W_project0_search.html"><!--272px X 92px proporcao original da imagem-->
+                <img alt="Google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/272px-Google_2015_logo.svg.png">
+            </a>
+            <a id="pesquisa_google" href="CS50W_project0_search.html">Pesquisa Google</a>
+        </header>
+        <div class="subtitulo">
+            <t id="subtitulo">Pesquisa avancada</t>
+        </div>
+        <div class="borda"></div>
+
+        <div class="pesquisa">
+            <form action="https://www.google.com/search">
+                <p>Localizar paginas com...</p>
+                <div class="especifico">
+                    <label>todas estas palavras:</label> 
+                    <input class="digita" type="text" name="as_q">                    
+                </div>
+
+                <div class="especifico">
+                    <label>esta expressao ou frase exata:</label>
+                    <input class="digita" type="text" name="as_epq">
+                </div>
+                
+                <div class="especifico">
+                    <label>qualquer uma destas palavras:</label>
+                    <input class="digita" type="text" name="as_oq">
+                </div>
+
+                <div class="especifico">
+                    <label>nenhuma destas palavras:</label>
+                    <input class="digita" type="text" name="as_eq">
+                </div>
+
+                <div class="enviar">
+                    <input type="submit" value="Pesquisa avancada">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
